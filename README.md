@@ -118,7 +118,9 @@ The application should now be running on http://localhost:3000.
 The primary model is a TimeDistributed CNN followed by an LSTM.
 
 · TimeDistributed CNNs: Apply 2D convolutional layers across each frame in an input sequence, extracting spatial features from individual images.
+
 · LSTM Layer: Processes the sequence of feature vectors extracted by the CNN, learning temporal dependencies between consecutive CT scan slices.
+
 · Final Layers: The output from the LSTM is passed through fully connected (Dense) layers with a final sigmoid activation for binary classification.
 
 📊 Dataset
