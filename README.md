@@ -10,8 +10,11 @@ The core innovation of this project is the use of a TimeDistributed CNN + LSTM a
 ✨ Features
 
 · Advanced Model Architecture: Implements a hybrid CNN-LSTM model for spatio-temporal feature extraction from image sequences.
+
 · User-Friendly Web Interface: A clean React.js frontend for easy upload and visualization of results.
+
 · Robust Backend API: A Flask server that handles image preprocessing, model inference, and result delivery.
+
 · Data Augmentation: Utilizes Keras' ImageDataGenerator to improve model generalization and combat overfitting.
 
 🛠️ Tech Stack
